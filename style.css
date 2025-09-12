@@ -149,23 +149,34 @@ footer {
     margin: 10px 5px;
   }
 
- .contact-icons-inline {
+.contact-inline {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
-  margin-top: 10px;
-}
-
-.contact-icons-inline a {
-  font-size: 1.6em;
+  gap: 20px;
+  font-size: 1em;
   color: #0077cc;
-  transition: transform 0.3s ease, color 0.3s ease;
+  margin: 10px auto;
+  padding: 0;
 }
 
-.contact-icons-inline a:hover {
-  color: #00b4d8;
-  transform: scale(1.05);
+.contact-inline span {
+  font-size: 1em;
+  color: #0077cc;
 }
+
+.contact-inline a {
+  font-size: 1em;
+  color: #0077cc;
+  transition: color 0.3s ease;
+}
+
+.contact-inline a:hover {
+  color: #00b4d8;
+}
+.contact-inline {
+  margin: 0 auto;
+}
+
 
 }
