@@ -1,2 +1,9 @@
-# komalghodke.github.io
+# Komal Ghodke | Freelance Full-Stack Developer
 Freelance Full-Stack Developer Portfolio showcasing scalable web platforms.
+
+Welcome to my portfolio! I specialize in building secure, scalable platforms using ReactJS, Spring Boot, and AWS. This site showcases my freelance work, including a wellness platform, API integrations, and mini projects.
+
+## Contact
+📧 komalghodke99@gmail.com  
+🔗 [GitHub](https://github.com/komalghodke)
+🔗 [LinkedIn](http://www.linkedin.com/in/komalghodke99)
