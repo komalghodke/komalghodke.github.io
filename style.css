@@ -177,29 +177,30 @@ footer {
     margin: 10px 5px;
   }
 
-  .contact-inline {
+.contact-inline {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
   font-size: 1em;
   color: #cc6699;
-  margin: 10px auto;
-  padding: 0;
+  margin: 40px auto;
+  padding: 10px 0;
   font-family: 'Inter', sans-serif;
+  flex-wrap: wrap;
+  border-top: 1px solid #eee;
 }
 
 .contact-inline span {
-  font-size: 1em;
-  color: #cc6699;
+  font-size: 1.1em;
   font-family: 'Raleway', sans-serif;
+  color: #cc6699;
 }
 
 .contact-inline a {
-  font-size: 1em;
+  font-size: 1.8em;
   color: #cc6699;
   transition: color 0.3s ease;
-  font-family: 'Inter', sans-serif;
 }
 
 .contact-inline a:hover {
