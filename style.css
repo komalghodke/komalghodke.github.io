@@ -156,4 +156,23 @@ footer {
   .contact-icons a {
     font-size: 1.8em;
   }
+
+  .contact-icons-inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.contact-icons-inline a {
+  font-size: 1.6em; /* Slightly smaller than before */
+  color: #0077cc;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-icons-inline a:hover {
+  color: #00b4d8;
+  transform: scale(1.05);
+}
 }
