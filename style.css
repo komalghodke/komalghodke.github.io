@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f9fafc;
+  background-color: #fff7e6; /* light cream */
   color: #333;
   margin: 0;
   padding: 0;
@@ -10,8 +10,8 @@ body {
 
 /* Hero Section */
 header.hero {
-  background: linear-gradient(to right, #0077cc, #00b4d8);
-  color: white;
+  background: linear-gradient(to right, #fddde6, #fff7e6); /* soft pink to cream */
+  color: #333; /* dark text for contrast */
   text-align: center;
   padding: 60px 20px;
 }
@@ -33,13 +33,13 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: white;
+  color: #cc6699; /* soft accent */
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #dff6ff;
+  color: #d88ca4;
 }
 
 /* Section Layout */
@@ -50,7 +50,7 @@ section {
 }
 
 h2 {
-  color: #0077cc;
+  color: #cc6699;
   margin-bottom: 10px;
   font-size: 1.8em;
 }
@@ -66,7 +66,7 @@ h2 {
 }
 
 .contact-info a {
-  color: #0077cc;
+  color: #cc6699;
   text-decoration: none;
 }
 
@@ -84,12 +84,12 @@ h2 {
 
 .contact-icons a {
   font-size: 2.2em;
-  color: #0077cc;
+  color: #cc6699;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .contact-icons a:hover {
-  color: #00b4d8;
+  color: #d88ca4;
   transform: scale(1.1);
 }
 
@@ -105,7 +105,7 @@ h2 {
 
 .contact-form h2 {
   text-align: center;
-  color: #0077cc;
+  color: #cc6699;
   margin-bottom: 20px;
 }
 
@@ -149,34 +149,33 @@ footer {
     margin: 10px 5px;
   }
 
-.contact-inline {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  font-size: 1em;
-  color: #0077cc;
-  margin: 10px auto;
-  padding: 0;
-}
+  .contact-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1em;
+    color: #cc6699;
+    margin: 10px auto;
+    padding: 0;
+  }
 
-.contact-inline span {
-  font-size: 1em;
-  color: #0077cc;
-}
+  .contact-inline span {
+    font-size: 1em;
+    color: #cc6699;
+  }
 
-.contact-inline a {
-  font-size: 1em;
-  color: #0077cc;
-  transition: color 0.3s ease;
-}
+  .contact-inline a {
+    font-size: 1em;
+    color: #cc6699;
+    transition: color 0.3s ease;
+  }
 
-.contact-inline a:hover {
-  color: #00b4d8;
-}
-.contact-inline {
-  margin: 0 auto;
-}
+  .contact-inline a:hover {
+    color: #d88ca4;
+  }
 
-
+  .contact-inline {
+    margin: 0 auto;
+  }
 }
