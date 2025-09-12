@@ -157,28 +157,28 @@ footer {
     font-size: 1.8em;
   }
 
-.contact-info-inline {
+.contact-inline {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   font-size: 1em;
   margin-top: 20px;
+  color: #0077cc;
 }
 
-.contact-info-inline h2 {
-  margin: 0;
+.contact-inline .reach-label {
   font-size: 1em;
   color: #0077cc;
 }
 
-.contact-info-inline a {
-  font-size: 1.2em; /* Smaller icon size */
+.contact-inline a {
+  font-size: 1em;
   color: #0077cc;
   transition: color 0.3s ease;
 }
 
-.contact-info-inline a:hover {
+.contact-inline a:hover {
   color: #00b4d8;
 }
 
