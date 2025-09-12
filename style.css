@@ -157,27 +157,29 @@ footer {
     font-size: 1.8em;
   }
 
- .contact-icons-inline {
+.contact-info-inline {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
-  margin-top: 10px;
+  gap: 20px;
+  font-size: 1em;
+  margin-top: 20px;
 }
 
-.contact-icons-inline a {
-  font-size: 1.6em;
+.contact-info-inline h2 {
+  margin: 0;
+  font-size: 1em;
   color: #0077cc;
-  transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.contact-icons-inline a:hover {
-  color: #00b4d8;
-  transform: scale(1.05);
+.contact-info-inline a {
+  font-size: 1.2em; /* Smaller icon size */
+  color: #0077cc;
+  transition: color 0.3s ease;
 }
 
-.contact-icons-inline a:hover {
+.contact-info-inline a:hover {
   color: #00b4d8;
-  transform: scale(1.05);
 }
+
 }
