@@ -7,3 +7,7 @@ Welcome to my portfolio! I specialize in building secure, scalable platforms usi
 📧 komalghodke99@gmail.com  
 🔗 [GitHub](https://github.com/komalghodke)
 🔗 [LinkedIn](http://www.linkedin.com/in/komalghodke99)
+
+## 🚀 Portfolio
+Check out my freelance developer portfolio:  
+🔗 [komalghodke.github.io](https://komalghodke.github.io)
