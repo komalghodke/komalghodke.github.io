@@ -1,31 +1,54 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f6f8;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafc;
   color: #333;
   margin: 0;
-  padding: 0 20px;
+  padding: 0;
 }
 
-header {
+header.hero {
+  background: linear-gradient(to right, #0077cc, #00b4d8);
+  color: white;
   text-align: center;
-  padding: 40px 0;
+  padding: 60px 20px;
 }
 
-.tagline {
+.subtitle {
   font-size: 1.2em;
-  color: #555;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 20px;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #0077cc;
+  color: white;
   font-weight: bold;
 }
 
 section {
+  max-width: 900px;
   margin: 40px auto;
-  max-width: 800px;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.skills-grid > div {
+  flex: 1;
+  min-width: 250px;
 }
 
 ul {
@@ -46,6 +69,13 @@ ul li::before {
   color: #0077cc;
 }
 
+.quote blockquote {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin: 40px 0;
+}
+
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -53,4 +83,11 @@ ul li::before {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #777;
 }
