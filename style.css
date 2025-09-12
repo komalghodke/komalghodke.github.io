@@ -91,3 +91,27 @@ footer {
   background-color: #f0f0f0;
   color: #777;
 }
+
+.services, .pricing {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.services ul, .pricing ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services ul li, .pricing ul li {
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.services ul li::before, .pricing ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0077cc;
+}
