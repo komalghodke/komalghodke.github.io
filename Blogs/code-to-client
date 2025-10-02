@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>From Code to Client | Komal Ghodke</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1>From Code to Client</h1>
+    <p class="subtitle">My Freelance Development Journey and What I Bring to the Table</p>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../projects.html">Projects</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <p><strong>Date:</strong> October 2, 2025</p>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>🌟 Introduction</h2>
+      <p>After years of building secure platforms and enterprise connectors, I realized something: I wanted more ownership, more flexibility, and more direct impact. That’s when I stepped into freelance development—not just as a coder, but as a problem solver for businesses that value quality and trust.</p>
+    </section>
+
+    <section>
+      <h2>🧠 My Background</h2>
+      <p>I’ve spent 3+ years working with technologies like ReactJS, Spring Boot, and AWS. From wellness platforms to enterprise integrations, I’ve built systems that are secure, scalable, and user-friendly. Now, I bring that same precision to freelance projects.</p>
+    </section>
+
+    <section>
+      <h2>💼 What I Offer</h2>
+      <ul>
+        <li>Custom web applications with ReactJS and Spring Boot</li>
+        <li>Secure API development and third-party integrations</li>
+        <li>AWS deployment and CI/CD setup</li>
+        <li>Authentication strategies using JWT and OAuth2</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🔧 How I Work</h2>
+      <p>I believe in clarity, consistency, and collaboration. I respond within 24 hours, set clear timelines, and deliver clean, documented code. Whether it’s a dashboard or a backend service, I treat every project like it’s my own product.</p>
+    </section>
+
+    <section>
+      <h2>📈 Client Success Snapshot</h2>
+      <p>One of my favorite projects was a Secure Wellness Platform deployed on AWS. I implemented JWT-based auth, optimized SEO, and built a responsive UI. The result? A 40% faster load time and seamless onboarding for users.</p>
+    </section>
+
+    <section>
+      <h2>🤝 Let’s Build Together</h2>
+      <p>If you’re looking for a developer who blends technical skill with business empathy, I’d love to connect. You can reach me via <a href="../contact.html">my contact page</a> or explore my <a href="../projects.html">portfolio</a>.</p>
+    </section>
+
+    <section class="author-bio">
+      <h3>About the Author</h3>
+      <p>Komal Ghodke is a freelance full-stack developer specializing in secure platforms using ReactJS, Spring Boot, and AWS. She’s passionate about clean architecture, intuitive user experiences, and helping businesses scale through smart technology.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Komal Ghodke · All rights reserved</p>
+  </footer>
+</body>
+</html>
