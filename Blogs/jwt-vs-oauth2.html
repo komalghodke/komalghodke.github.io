@@ -3,36 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <title>JWT vs OAuth2 | Komal Ghodke</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <header>
     <h1>JWT vs OAuth2: Choosing the Right Auth Strategy</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../projects.html">Projects</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
     <p><strong>Date:</strong> October 2, 2025</p>
   </header>
 
-  <section>
-    <h2>Introduction</h2>
-    <p>When building secure platforms, authentication is the first line of defense. Two popular approaches—JWT (JSON Web Tokens) and OAuth2—offer distinct advantages depending on your use case. In this post, I’ll break down their differences and share how I’ve used each in real-world projects.</p>
+  <main class="container">
+    <section>
+      <h2>🌱 Introduction</h2>
+      <p>Authentication is more than a technical step—it's the foundation of trust in any digital platform. Whether you're building internal APIs or integrating third-party services, choosing the right strategy matters. In this post, I’ll share how I’ve used JWT and OAuth2 in real-world projects and when each shines.</p>
+    </section>
 
-    <h2>What is JWT?</h2>
-    <p>JWT is a compact, URL-safe token format used for stateless authentication. It contains claims encoded in JSON and signed with a secret or public/private key pair. Once issued, the server doesn’t need to store session data—making JWT ideal for scalable APIs.</p>
+    <section>
+      <h2>🔐 What is JWT?</h2>
+      <p>JWT (JSON Web Token) is a compact, stateless token format used to verify users. It encodes claims in JSON and is signed using a secret or key pair. Once issued, the server doesn’t need to store session data—making JWT ideal for scalable, high-performance APIs.</p>
+    </section>
 
-    <h2>What is OAuth2?</h2>
-    <p>OAuth2 is a protocol that allows third-party applications to access user data without exposing credentials. It’s widely used for delegated access—think “Login with Google.” OAuth2 involves access tokens, refresh tokens, and scopes to control permissions.</p>
+    <section>
+      <h2>🔑 What is OAuth2?</h2>
+      <p>OAuth2 is a protocol for delegated access. It allows users to grant limited permissions to third-party apps without sharing credentials. Widely used in “Sign in with Google” scenarios, OAuth2 uses access tokens, refresh tokens, and scopes to manage secure access.</p>
+    </section>
 
-    <h2>Key Differences</h2>
-    <ul>
-      <li><strong>JWT:</strong> Simple, fast, stateless. Best for internal APIs and microservices.</li>
-      <li><strong>OAuth2:</strong> More secure, supports token revocation and scopes. Ideal for third-party integrations.</li>
-    </ul>
+    <section>
+      <h2>⚖️ Key Differences</h2>
+      <table>
+        <tr>
+          <th>Feature</th>
+          <th>JWT</th>
+          <th>OAuth2</th>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>Token format</td>
+          <td>Protocol</td>
+        </tr>
+        <tr>
+          <td>Use Case</td>
+          <td>Internal APIs, microservices</td>
+          <td>Third-party integrations</td>
+        </tr>
+        <tr>
+          <td>Security</td>
+          <td>Signed token</td>
+          <td>Token + scopes + refresh flow</td>
+        </tr>
+        <tr>
+          <td>Server Storage</td>
+          <td>Stateless</td>
+          <td>May require token management</td>
+        </tr>
+      </table>
+    </section>
 
-    <h2>My Experience</h2>
-    <p>In my Secure Wellness Platform, I implemented JWT for user authentication. It allowed seamless login and fast API responses without server-side session storage. For enterprise connectors, I used OAuth2 to integrate with Microsoft Graph and Google APIs—ensuring secure, permission-based access.</p>
+    <section>
+      <h2>🛠️ My Experience</h2>
+      <p>In my Secure Wellness Platform, I used JWT to enable fast, stateless authentication. It simplified deployment on AWS and improved response times. For enterprise connectors, OAuth2 was essential—especially when integrating with Microsoft Graph and Google APIs. It gave me granular control over permissions and ensured compliance with enterprise standards.</p>
+    </section>
 
-    <h2>Conclusion</h2>
-    <p>Choosing between JWT and OAuth2 depends on your platform’s needs. JWT is great for speed and simplicity, while OAuth2 offers robust security for external integrations. As a full-stack developer, I tailor auth strategies to match the project’s scale and sensitivity.</p>
-  </section>
+    <section>
+      <h2>🌟 Conclusion</h2>
+      <p>JWT and OAuth2 aren’t rivals—they’re tools for different needs. JWT is lightweight and fast, perfect for internal systems. OAuth2 offers depth and control, ideal for external integrations. As a full-stack developer, I choose based on context, always aiming for secure and seamless user experiences.</p>
+    </section>
+  </main>
 
   <footer>
     <p>© 2025 Komal Ghodke · All rights reserved</p>
