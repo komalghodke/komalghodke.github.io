@@ -225,3 +225,20 @@ a {
   color: #0077cc;
   text-decoration: none;
 }
+
+.author-bio {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+}
+
+.author-bio h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.author-bio p {
+  font-size: 1em;
+  color: #333;
+}
