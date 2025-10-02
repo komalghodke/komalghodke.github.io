@@ -207,3 +207,21 @@ footer {
   color: #d88ca4;
 }
 }
+
+article {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+article h2 {
+  color: #333;
+}
+
+article p {
+  color: #555;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
