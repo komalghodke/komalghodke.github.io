@@ -4,6 +4,29 @@
   <meta charset="UTF-8">
   <title>JWT vs OAuth2 | Komal Ghodke</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    .diagram {
+      display: flex;
+      justify-content: space-around;
+      margin: 2em 0;
+      flex-wrap: wrap;
+    }
+    .diagram-box {
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 1em;
+      width: 45%;
+      min-width: 300px;
+      background-color: #f9f9f9;
+    }
+    .diagram-box h3 {
+      margin-top: 0;
+      color: #333;
+    }
+    .diagram-box ul {
+      padding-left: 1.2em;
+    }
+  </style>
 </head>
 <body>
 
@@ -38,7 +61,33 @@
     </section>
 
     <section>
-      <h2>⚖️ JWT vs OAuth2: Key Differences</h2>
+      <h2>📊 Visual Comparison</h2>
+      <div class="diagram">
+        <div class="diagram-box">
+          <h3>JWT Flow</h3>
+          <ul>
+            <li>User logs in</li>
+            <li>Server issues JWT</li>
+            <li>Client stores token</li>
+            <li>Client sends token with each request</li>
+            <li>Server verifies token signature</li>
+          </ul>
+        </div>
+        <div class="diagram-box">
+          <h3>OAuth2 Flow</h3>
+          <ul>
+            <li>User authorizes via provider</li>
+            <li>Authorization server issues access token</li>
+            <li>Client uses token to access resources</li>
+            <li>Scopes define access level</li>
+            <li>Refresh token used for renewal</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>⚖️ Key Differences</h2>
       <table>
         <tr>
           <th>Feature</th>
