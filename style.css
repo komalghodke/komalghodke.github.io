@@ -266,7 +266,7 @@ th, td {
 }
 
 nav a.active {
-  color: #ff6600; /* Highlight color */
+  color: #708090; /* Highlight color */
   font-weight: bold;
-  border-bottom: 2px solid #ff6600;
+  border-bottom: 2px solid #708090;
 }
