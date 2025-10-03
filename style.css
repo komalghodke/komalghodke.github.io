@@ -264,3 +264,9 @@ th, td {
     background-color: #f0f0f0;
   }
 }
+
+nav a.active {
+  color: #ff6600; /* Highlight color */
+  font-weight: bold;
+  border-bottom: 2px solid #ff6600;
+}
