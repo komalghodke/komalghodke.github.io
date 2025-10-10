@@ -26,6 +26,33 @@
     .diagram-box ul {
       padding-left: 1.2em;
     }
+    .comments {
+      margin-top: 2em;
+      padding: 1em;
+      border-top: 1px solid #ccc;
+      background-color: #f4f4f4;
+    }
+    .comments a {
+      color: #007acc;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .comments a:hover {
+      text-decoration: underline;
+    }
+    .comments button {
+      padding: 0.6em 1.2em;
+      background-color: #007acc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 0.5em;
+    }
+    .comments button:hover {
+      background-color: #005fa3;
+    }
   </style>
 </head>
 <body>
@@ -121,11 +148,25 @@
       </ul>
     </section>
 
+    <section class="comments">
+      <h3> Hope you Like my Blog!
+      <button onclick="window.open('https://github.com/komalghodke/komalghodke.github.io/issues/3', '_blank')" title="Click to open GitHub and add a 👍 reaction">
+        Like on GitHub>👍
+      </button> </h3>
+      <h2>💬 Leave a Comment</h2>
+      <p>
+        To share feedback or ask a question,  
+        <a href="https://github.com/komalghodke/komalghodke.github.io/issues/3" target="_blank">
+          click here to view or leave a comment on GitHub.
+        </a>
+      </p>
+    </section>
+
     <section class="author-bio">
       <h3>About the Author</h3>
       <p>Komal Ghodke is a freelance full-stack developer specializing in secure platforms using ReactJS, Spring Boot, and AWS. She’s passionate about clean architecture, intuitive user experiences, and helping businesses scale through smart technology.</p>
     </section>
-</main>
+  </main>
 
   <footer>
     <p>© 2025 Komal Ghodke · All rights reserved</p>
