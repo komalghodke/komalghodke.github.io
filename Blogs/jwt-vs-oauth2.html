@@ -26,6 +26,28 @@
     .diagram-box ul {
       padding-left: 1.2em;
     }
+
+    .like-section, .comment-section {
+  margin-top: 2em;
+  padding: 1em;
+  border-top: 1px solid #ccc;
+}
+
+.comment-section input {
+  width: 60%;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.comment-section button {
+  padding: 0.5em 1em;
+}
+
+#commentList {
+  margin-top: 1em;
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
   </style>
 </head>
 <body>
@@ -142,6 +164,20 @@
       </ul>
     </section>
 
+    <section class="like-section">
+      <h3>👍 Like this post</h3>
+      <button onclick="handleLike()">Like</button>
+      <span id="like-count">0</span> likes
+    </section>
+
+    <section class="comment-section">
+      <h3>💬 Leave a Comment</h3>
+      <input type="text" id="commentInput" placeholder="Write your comment..." />
+      <button onclick="addComment()">Submit</button>
+      <ul id="commentList"></ul>
+    </section>
+
+  
     <section class="author-bio">
       <h3>About the Author</h3>
       <p>Komal Ghodke is a freelance full-stack developer specializing in secure platforms using ReactJS, Spring Boot, and AWS. She’s passionate about clean architecture, intuitive user experiences, and helping businesses scale through smart technology.</p>
@@ -151,5 +187,25 @@
   <footer>
     <p>© 2025 Komal Ghodke · All rights reserved</p>
   </footer>
+
+  <script>
+  let likes = 0;
+  function handleLike() {
+    likes++;
+    document.getElementById("like-count").innerText = likes;
+  }
+
+  function addComment() {
+    const input = document.getElementById("commentInput");
+    const comment = input.value.trim();
+    if (comment) {
+      const li = document.createElement("li");
+      li.textContent = comment;
+      document.getElementById("commentList").appendChild(li);
+      input.value = "";
+    }
+  }
+</script>
+
 </body>
 </html>
