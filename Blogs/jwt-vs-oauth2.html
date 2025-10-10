@@ -26,17 +26,22 @@
     .diagram-box ul {
       padding-left: 1.2em;
     }
-
-    .like-section, .comment-section {
-      margin-top: 2em;
-      padding: 1em;
-      border-top: 1px solid #ccc;
-    }
-    .comments {
+    .like-section, .comments {
       margin-top: 2em;
       padding: 1em;
       border-top: 1px solid #ccc;
       background-color: #f4f4f4;
+    }
+    .like-section button {
+      padding: 0.5em 1em;
+      background-color: #007acc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .like-section button:hover {
+      background-color: #005fa3;
     }
     .comments a {
       color: #007acc;
@@ -46,7 +51,6 @@
     .comments a:hover {
       text-decoration: underline;
     }
-
   </style>
 </head>
 <body>
@@ -165,19 +169,22 @@
 
     <section class="like-section">
       <h3>👍 Like this post</h3>
+      <p>This post has <span id="like-count">0</span> likes.</p>
       <button onclick="handleLike()">Like</button>
-      <span id="like-count">0</span> likes
+      <p style="font-size: 0.9em; color: #555;">
+        To store likes permanently, update <code>likes.json</code> in your GitHub repo manually or automate it with GitHub Actions.
+      </p>
     </section>
 
-   <section class="comments">
-    <h2>💬 Leave a Comment</h2>
-    <p>
-      Want to share your thoughts or ask a question?  
-      <a href="https://github.com/komalghodke/komalghodke.github.io/issues/1" target="_blank">
-        Click here to view or leave a comment on GitHub.
-      </a>
-    </p>
-  </section>
+    <section class="comments">
+      <h2>💬 Leave a Comment</h2>
+      <p>
+        Want to share your thoughts or ask a question?  
+        <a href="https://github.com/komalghodke/komalghodke.github.io/issues/1" target="_blank">
+          Click here to view or leave a comment on GitHub.
+        </a>
+      </p>
+    </section>
 
     <section class="author-bio">
       <h3>About the Author</h3>
@@ -190,23 +197,11 @@
   </footer>
 
   <script>
-  let likes = 0;
-  function handleLike() {
-    likes++;
-    document.getElementById("like-count").innerText = likes;
-  }
-
-  function addComment() {
-    const input = document.getElementById("commentInput");
-    const comment = input.value.trim();
-    if (comment) {
-      const li = document.createElement("li");
-      li.textContent = comment;
-      document.getElementById("commentList").appendChild(li);
-      input.value = "";
+    let likes = 0;
+    function handleLike() {
+      likes++;
+      document.getElementById("like-count").innerText = likes;
     }
-  }
-</script>
-
+  </script>
 </body>
 </html>
