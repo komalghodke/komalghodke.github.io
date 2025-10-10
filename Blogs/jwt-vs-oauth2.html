@@ -32,23 +32,12 @@
       border-top: 1px solid #ccc;
       background-color: #f4f4f4;
     }
-    .like-section button {
-      padding: 0.5em 1em;
-      background-color: #007acc;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    .like-section button:hover {
-      background-color: #005fa3;
-    }
-    .comments a {
+    .comments a, .like-section a {
       color: #007acc;
       font-weight: bold;
       text-decoration: none;
     }
-    .comments a:hover {
+    .comments a:hover, .like-section a:hover {
       text-decoration: underline;
     }
   </style>
@@ -169,16 +158,20 @@
 
     <section class="like-section">
       <h3>👍 Like this post</h3>
-      <p>This post has <span id="like-count">0</span> likes.
-      <button onclick="handleLike()">Like</button> </p>
+      <p>
+        To acknowledge the value of this article,  
+        <a href="https://github.com/komalghodke/komalghodke.github.io/issues/1" target="_blank">
+          click here to add a 👍 reaction on GitHub.
+        </a>
+      </p>
     </section>
-
+    
     <section class="comments">
       <h2>💬 Leave a Comment</h2>
       <p>
-        Want to share your thoughts or ask a question?  
+        To share feedback or ask a question,  
         <a href="https://github.com/komalghodke/komalghodke.github.io/issues/1" target="_blank">
-          Click here to view or leave a comment on GitHub.
+          click here to view or leave a comment on GitHub.
         </a>
       </p>
     </section>
@@ -192,13 +185,5 @@
   <footer>
     <p>© 2025 Komal Ghodke · All rights reserved</p>
   </footer>
-
-  <script>
-    let likes = 0;
-    function handleLike() {
-      likes++;
-      document.getElementById("like-count").innerText = likes;
-    }
-  </script>
 </body>
 </html>
