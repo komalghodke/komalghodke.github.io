@@ -21,7 +21,7 @@ body {
 /* Hero Section */
 header.hero {
   background: linear-gradient(to right, #EEAECB, #3A1C71);
-  color: #ffffff; /* navy text */
+  color: #ffffff; /* white text */
   text-align: center;
   padding: 60px 20px;
 }
@@ -30,14 +30,14 @@ header.hero h1 {
   font-size: 2.5em;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
-  color: #1A2A40;
+  color: #ffffff; /* force white */
 }
 
 .subtitle {
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
   margin-top: 10px;
-  color: #2C2C2C;
+  color: #ffffff; /* force white */
 }
 
 /* Navigation */
@@ -51,19 +51,19 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #ffffff; /* white links for contrast */
+  color: #ffffff; /* white links */
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
   font-family: 'Inter', sans-serif;
 }
 
 nav a:hover {
-  color: #1A2A40; /* navy hover */
+  color: #cc6699; /* brand pink on hover */
 }
 
 nav a.active {
-  color: #1A2A40; /* navy active */
-  border-bottom: 2px solid #1A2A40;
+  color: #f8f9fa; /* soft white active */
+  border-bottom: 2px solid #ffffff; /* underline in white */
 }
 
 /* Buttons */
@@ -192,8 +192,8 @@ h2 {
 footer {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, #EEAECB, #3A1C71); /* pink → yellow footer */
-  color: #ffffff;
+  background: linear-gradient(to right, #EEAECB, #3A1C71);
+  color: #ffffff; /* white text */
   font-size: 0.9em;
   font-family: 'Inter', sans-serif;
 }
