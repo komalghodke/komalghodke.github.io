@@ -43,7 +43,7 @@ header.hero h1 {
 /* Navigation */
 nav {
   margin-top: 0;
-  background: linear-gradient(to right, #cc6699, #fdd835); /* pink → yellow gradient */
+  background: linear-gradient(to right, #cc6699, #6c757d); /* pink → yellow gradient */
   padding: 15px 0;
   text-align: center;
 }
@@ -192,7 +192,7 @@ h2 {
 footer {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, #cc6699, #fdd835); /* pink → yellow footer */
+  background: linear-gradient(to right, #cc6699, #6c757d); /* pink → yellow footer */
   color: #ffffff;
   font-size: 0.9em;
   font-family: 'Inter', sans-serif;
