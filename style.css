@@ -66,6 +66,25 @@ nav a.active {
   border-bottom: 2px solid #1A2A40;
 }
 
+/* Buttons */
+button, .btn {
+  background-color: #cc6699; /* brand pink */
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #ffffff;
+  color: #cc6699;
+  border: 2px solid #cc6699;
+}
+
 /* Main Content Section */
 .main-content {
   background-color: #fef6f8; /* light pink blocks */
@@ -89,6 +108,9 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
   font-size: 1.8em;
+  border-bottom: 3px solid #cc6699; /* pink divider accent */
+  display: inline-block;
+  padding-bottom: 4px;
 }
 
 /* Contact Info */
@@ -123,12 +145,12 @@ h2 {
 
 .contact-icons a {
   font-size: 2.2em;
-  color: #1A2A40;
+  color: #cc6699; /* brand pink icons */
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .contact-icons a:hover {
-  color: #cc6699;
+  color: #1A2A40;
   transform: scale(1.1);
 }
 
@@ -213,12 +235,12 @@ footer {
 
   .contact-inline a {
     font-size: 1.8em;
-    color: #1A2A40;
+    color: #cc6699;
     transition: color 0.3s ease;
   }
 
   .contact-inline a:hover {
-    color: #cc6699;
+    color: #1A2A40;
   }
 }
 
@@ -247,7 +269,7 @@ a:hover {
 
 /* Author Bio */
 .author-bio {
-  background-color: #fef6f8; /* light pink tint */
+  background-color: #fff0f5; /* subtle pink tint */
   padding: 20px;
   margin-top: 40px;
   border-top: 1px solid #ddd;
