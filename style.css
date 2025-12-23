@@ -20,8 +20,8 @@ body {
 
 /* Hero Section */
 header.hero {
-  background: linear-gradient(to right, #EEAECB, #3A1C71); /* pink → yellow gradient */
-  color: #1A2A40; /* navy text */
+  background: linear-gradient(to right, #EEAECB, #3A1C71);
+  color: #ffffff; /* navy text */
   text-align: center;
   padding: 60px 20px;
 }
@@ -43,7 +43,7 @@ header.hero h1 {
 /* Navigation */
 nav {
   margin-top: 0;
-  background: linear-gradient(to right, #EEAECB, #3A1C71); /* pink → yellow gradient */
+  background: linear-gradient(to right, #EEAECB, #3A1C71);
   padding: 15px 0;
   text-align: center;
 }
