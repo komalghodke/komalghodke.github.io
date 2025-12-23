@@ -20,7 +20,7 @@ body {
 
 /* Hero Section */
 header.hero {
-  background: linear-gradient(to right, #cc6699, #fdd835); /* pink → yellow gradient */
+  background: linear-gradient(to right, #cc6699, #6c757d); /* pink → yellow gradient */
   color: #1A2A40; /* navy text */
   text-align: center;
   padding: 60px 20px;
