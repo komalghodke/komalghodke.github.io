@@ -20,7 +20,7 @@ body {
 
 /* Hero Section */
 header.hero {
-  background: linear-gradient(to right, #b84d7c, #e6b800); /* muted pink → muted gold */
+  background: linear-gradient(to right, #cc6699, #d4af37); /* pink → muted gold */
   color: #ffffff; /* white text for contrast */
   text-align: center;
   padding: 60px 20px;
@@ -43,7 +43,7 @@ header.hero h1 {
 /* Navigation */
 nav {
   margin-top: 0;
-  background: linear-gradient(to right, #b84d7c, #e6b800); /* muted pink → muted gold */
+  background: linear-gradient(to right, #cc6699, #d4af37); /* pink → muted gold */
   padding: 15px 0;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow for depth */
@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 nav a.active {
-  color: #1A2A40; /* navy active */
+  color: #1A2A40;
   border-bottom: 2px solid #1A2A40;
 }
 
@@ -193,7 +193,7 @@ h2 {
 footer {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, #b84d7c, #e6b800); /* muted pink → muted gold */
+  background: linear-gradient(to right, #cc6699, #d4af37); /* pink → muted gold */
   color: #ffffff;
   font-size: 0.9em;
   font-family: 'Inter', sans-serif;
