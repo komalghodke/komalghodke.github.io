@@ -2,7 +2,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: #fef6f8; /* soft pink background */
-  color: #2C2C2C; /* charcoal text */
+  color: #2C2C2C; /* charcoal text for professionalism */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -164,8 +164,8 @@ h2 {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #f0f0f0;
-  color: #777;
+  background-color: #1A2A40; /* navy footer */
+  color: #ffffff;
   font-size: 0.9em;
   font-family: 'Inter', sans-serif;
 }
