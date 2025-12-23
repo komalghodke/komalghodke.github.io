@@ -1,8 +1,8 @@
 /* Base Styles */
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #fef6f8; /* soft pink background */
-  color: #2C2C2C; /* charcoal text for professionalism */
+  background-color: #ffffff; /* clean white background */
+  color: #2C2C2C; /* charcoal text */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -20,8 +20,8 @@ body {
 
 /* Hero Section */
 header.hero {
-  background: linear-gradient(to right, #fddde6, #fff7e6);
-  color: #1A2A40; /* navy text */
+  background-color: #1A2A40; /* solid navy hero */
+  color: #ffffff; /* white text for contrast */
   text-align: center;
   padding: 60px 20px;
 }
@@ -36,31 +36,33 @@ header.hero h1 {
   font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
   margin-top: 10px;
-  color: #2C2C2C; /* charcoal subtitle */
+  color: #f0f0f0; /* light gray subtitle */
 }
 
 /* Navigation */
 nav {
-  margin-top: 20px;
+  margin-top: 0;
+  background-color: #1A2A40; /* navy nav bar */
+  padding: 15px 0;
+  text-align: center;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #cc6699; /* pink accent */
+  color: #ffffff; /* white links */
   font-weight: bold;
   transition: color 0.3s ease;
   font-family: 'Inter', sans-serif;
 }
 
 nav a:hover {
-  color: #1A2A40; /* navy hover */
+  color: #cc6699; /* pink hover accent */
 }
 
 nav a.active {
-  color: #1A2A40; /* navy active */
-  font-weight: bold;
-  border-bottom: 2px solid #1A2A40;
+  color: #cc6699; /* pink active link */
+  border-bottom: 2px solid #cc6699;
 }
 
 /* Main Content Section */
@@ -79,7 +81,7 @@ section {
 }
 
 h2 {
-  color: #cc6699; /* pink headings */
+  color: #1A2A40; /* navy headings */
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
   font-size: 1.8em;
@@ -117,12 +119,12 @@ h2 {
 
 .contact-icons a {
   font-size: 2.2em;
-  color: #cc6699;
+  color: #1A2A40; /* navy icons */
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .contact-icons a:hover {
-  color: #1A2A40;
+  color: #cc6699;
   transform: scale(1.1);
 }
 
@@ -138,7 +140,7 @@ h2 {
 
 .contact-form h2 {
   text-align: center;
-  color: #cc6699;
+  color: #1A2A40; /* navy heading */
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
 }
@@ -191,7 +193,7 @@ footer {
     align-items: center;
     gap: 24px;
     font-size: 1em;
-    color: #cc6699;
+    color: #1A2A40;
     margin: 40px auto;
     padding: 10px 0;
     font-family: 'Inter', sans-serif;
@@ -202,17 +204,17 @@ footer {
   .contact-inline span {
     font-size: 1.1em;
     font-family: 'Raleway', sans-serif;
-    color: #cc6699;
+    color: #1A2A40;
   }
 
   .contact-inline a {
     font-size: 1.8em;
-    color: #cc6699;
+    color: #1A2A40;
     transition: color 0.3s ease;
   }
 
   .contact-inline a:hover {
-    color: #1A2A40;
+    color: #cc6699;
   }
 }
 
@@ -230,13 +232,14 @@ article p {
   color: #555;
 }
 
+/* Links */
 a {
   color: #1A2A40; /* navy links */
   text-decoration: none;
 }
 
 a:hover {
-  color: #cc6699;
+  color: #cc6699; /* pink hover */
 }
 
 /* Author Bio */
